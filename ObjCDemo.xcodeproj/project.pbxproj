@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8461016C28B235C500A40AD6 /* JSONService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8461016B28B235C500A40AD6 /* JSONService.m */; };
+		8461017528B23AAF00A40AD6 /* ImageService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8461017428B23AAF00A40AD6 /* ImageService.m */; };
 		8466FDFF28AFAC34000A8CBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466FDFE28AFAC34000A8CBF /* AppDelegate.m */; };
 		8466FE0228AFAC34000A8CBF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466FE0128AFAC34000A8CBF /* SceneDelegate.m */; };
 		8466FE0528AFAC34000A8CBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466FE0428AFAC34000A8CBF /* ViewController.m */; };
@@ -14,9 +16,21 @@
 		8466FE0A28AFAC36000A8CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8466FE0928AFAC36000A8CBF /* Assets.xcassets */; };
 		8466FE0D28AFAC36000A8CBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8466FE0B28AFAC36000A8CBF /* LaunchScreen.storyboard */; };
 		8466FE1028AFAC36000A8CBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466FE0F28AFAC36000A8CBF /* main.m */; };
+		8466FE1A28AFAF9B000A8CBF /* Workout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466FE1928AFAF9B000A8CBF /* Workout.m */; };
+		8466FE2428B06967000A8CBF /* WorkoutCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8466FE2328B06967000A8CBF /* WorkoutCardView.xib */; };
+		8466FE2A28B0BD7E000A8CBF /* WorkoutCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466FE2928B0BD7E000A8CBF /* WorkoutCardView.m */; };
+		8466FE3C28B0F9C0000A8CBF /* Gilroy-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8466FE3828B0F9C0000A8CBF /* Gilroy-Regular.otf */; };
+		8466FE3D28B0F9C0000A8CBF /* Gilroy-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8466FE3928B0F9C0000A8CBF /* Gilroy-Medium.otf */; };
+		8466FE3E28B0F9C0000A8CBF /* Gilroy-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8466FE3A28B0F9C0000A8CBF /* Gilroy-Bold.otf */; };
+		8466FE3F28B0F9C0000A8CBF /* Gilroy-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8466FE3B28B0F9C0000A8CBF /* Gilroy-SemiBold.otf */; };
+		84EB3D0328B1C5F900DD79AA /* workouts.json in Resources */ = {isa = PBXBuildFile; fileRef = 84EB3D0228B1C5F900DD79AA /* workouts.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8461016A28B235C500A40AD6 /* JSONService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONService.h; sourceTree = "<group>"; };
+		8461016B28B235C500A40AD6 /* JSONService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONService.m; sourceTree = "<group>"; };
+		8461017328B23AAF00A40AD6 /* ImageService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageService.h; sourceTree = "<group>"; };
+		8461017428B23AAF00A40AD6 /* ImageService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageService.m; sourceTree = "<group>"; };
 		8466FDFA28AFAC34000A8CBF /* ObjCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8466FDFD28AFAC34000A8CBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8466FDFE28AFAC34000A8CBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +43,16 @@
 		8466FE0C28AFAC36000A8CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8466FE0E28AFAC36000A8CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8466FE0F28AFAC36000A8CBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8466FE1928AFAF9B000A8CBF /* Workout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Workout.m; sourceTree = "<group>"; };
+		8466FE1B28AFB25B000A8CBF /* Workout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Workout.h; sourceTree = "<group>"; };
+		8466FE2328B06967000A8CBF /* WorkoutCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkoutCardView.xib; sourceTree = "<group>"; };
+		8466FE2828B0BD7E000A8CBF /* WorkoutCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorkoutCardView.h; sourceTree = "<group>"; };
+		8466FE2928B0BD7E000A8CBF /* WorkoutCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkoutCardView.m; sourceTree = "<group>"; };
+		8466FE3828B0F9C0000A8CBF /* Gilroy-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.otf"; sourceTree = "<group>"; };
+		8466FE3928B0F9C0000A8CBF /* Gilroy-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.otf"; sourceTree = "<group>"; };
+		8466FE3A28B0F9C0000A8CBF /* Gilroy-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.otf"; sourceTree = "<group>"; };
+		8466FE3B28B0F9C0000A8CBF /* Gilroy-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.otf"; sourceTree = "<group>"; };
+		84EB3D0228B1C5F900DD79AA /* workouts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = workouts.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +66,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8461016E28B235D800A40AD6 /* JSONService */ = {
+			isa = PBXGroup;
+			children = (
+				8461016A28B235C500A40AD6 /* JSONService.h */,
+				8461016B28B235C500A40AD6 /* JSONService.m */,
+			);
+			path = JSONService;
+			sourceTree = "<group>";
+		};
+		8461016F28B235F000A40AD6 /* ImageService */ = {
+			isa = PBXGroup;
+			children = (
+				8461017328B23AAF00A40AD6 /* ImageService.h */,
+				8461017428B23AAF00A40AD6 /* ImageService.m */,
+			);
+			path = ImageService;
+			sourceTree = "<group>";
+		};
 		8466FDF128AFAC33000A8CBF = {
 			isa = PBXGroup;
 			children = (
@@ -61,19 +103,95 @@
 		8466FDFC28AFAC34000A8CBF /* ObjCDemo */ = {
 			isa = PBXGroup;
 			children = (
+				84EB3D0628B22C1C00DD79AA /* Services */,
+				8466FE0628AFAC34000A8CBF /* Main.storyboard */,
+				84EB3D0428B22BC400DD79AA /* App */,
+				8466FE2B28B0D552000A8CBF /* Resources */,
+				8466FE1828AFADEC000A8CBF /* Views */,
+				8466FE1728AFADEA000A8CBF /* Models */,
+				8466FE1628AFADE2000A8CBF /* Controllers */,
+				8466FE0928AFAC36000A8CBF /* Assets.xcassets */,
+				8466FE0E28AFAC36000A8CBF /* Info.plist */,
+			);
+			path = ObjCDemo;
+			sourceTree = "<group>";
+		};
+		8466FE1628AFADE2000A8CBF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8466FE0328AFAC34000A8CBF /* ViewController.h */,
+				8466FE0428AFAC34000A8CBF /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8466FE1728AFADEA000A8CBF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8466FE1B28AFB25B000A8CBF /* Workout.h */,
+				8466FE1928AFAF9B000A8CBF /* Workout.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8466FE1828AFADEC000A8CBF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8466FE2728B0BD57000A8CBF /* WorkoutCard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8466FE2728B0BD57000A8CBF /* WorkoutCard */ = {
+			isa = PBXGroup;
+			children = (
+				8466FE2328B06967000A8CBF /* WorkoutCardView.xib */,
+				8466FE2828B0BD7E000A8CBF /* WorkoutCardView.h */,
+				8466FE2928B0BD7E000A8CBF /* WorkoutCardView.m */,
+			);
+			path = WorkoutCard;
+			sourceTree = "<group>";
+		};
+		8466FE2B28B0D552000A8CBF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84EB3D0228B1C5F900DD79AA /* workouts.json */,
+				8466FE4028B0F9CD000A8CBF /* font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8466FE4028B0F9CD000A8CBF /* font */ = {
+			isa = PBXGroup;
+			children = (
+				8466FE3A28B0F9C0000A8CBF /* Gilroy-Bold.otf */,
+				8466FE3928B0F9C0000A8CBF /* Gilroy-Medium.otf */,
+				8466FE3828B0F9C0000A8CBF /* Gilroy-Regular.otf */,
+				8466FE3B28B0F9C0000A8CBF /* Gilroy-SemiBold.otf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		84EB3D0428B22BC400DD79AA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8466FE0F28AFAC36000A8CBF /* main.m */,
+				8466FE0B28AFAC36000A8CBF /* LaunchScreen.storyboard */,
 				8466FDFD28AFAC34000A8CBF /* AppDelegate.h */,
 				8466FDFE28AFAC34000A8CBF /* AppDelegate.m */,
 				8466FE0028AFAC34000A8CBF /* SceneDelegate.h */,
 				8466FE0128AFAC34000A8CBF /* SceneDelegate.m */,
-				8466FE0328AFAC34000A8CBF /* ViewController.h */,
-				8466FE0428AFAC34000A8CBF /* ViewController.m */,
-				8466FE0628AFAC34000A8CBF /* Main.storyboard */,
-				8466FE0928AFAC36000A8CBF /* Assets.xcassets */,
-				8466FE0B28AFAC36000A8CBF /* LaunchScreen.storyboard */,
-				8466FE0E28AFAC36000A8CBF /* Info.plist */,
-				8466FE0F28AFAC36000A8CBF /* main.m */,
 			);
-			path = ObjCDemo;
+			path = App;
+			sourceTree = "<group>";
+		};
+		84EB3D0628B22C1C00DD79AA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8461016F28B235F000A40AD6 /* ImageService */,
+				8461016E28B235D800A40AD6 /* JSONService */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +237,8 @@
 				Base,
 			);
 			mainGroup = 8466FDF128AFAC33000A8CBF;
+			packageReferences = (
+			);
 			productRefGroup = 8466FDFB28AFAC34000A8CBF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,8 +253,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8466FE3C28B0F9C0000A8CBF /* Gilroy-Regular.otf in Resources */,
+				84EB3D0328B1C5F900DD79AA /* workouts.json in Resources */,
+				8466FE2428B06967000A8CBF /* WorkoutCardView.xib in Resources */,
+				8466FE3E28B0F9C0000A8CBF /* Gilroy-Bold.otf in Resources */,
 				8466FE0D28AFAC36000A8CBF /* LaunchScreen.storyboard in Resources */,
+				8466FE3D28B0F9C0000A8CBF /* Gilroy-Medium.otf in Resources */,
 				8466FE0A28AFAC36000A8CBF /* Assets.xcassets in Resources */,
+				8466FE3F28B0F9C0000A8CBF /* Gilroy-SemiBold.otf in Resources */,
 				8466FE0828AFAC34000A8CBF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,8 +274,12 @@
 			files = (
 				8466FE0528AFAC34000A8CBF /* ViewController.m in Sources */,
 				8466FDFF28AFAC34000A8CBF /* AppDelegate.m in Sources */,
+				8466FE2A28B0BD7E000A8CBF /* WorkoutCardView.m in Sources */,
+				8466FE1A28AFAF9B000A8CBF /* Workout.m in Sources */,
 				8466FE1028AFAC36000A8CBF /* main.m in Sources */,
+				8461017528B23AAF00A40AD6 /* ImageService.m in Sources */,
 				8466FE0228AFAC34000A8CBF /* SceneDelegate.m in Sources */,
+				8461016C28B235C500A40AD6 /* JSONService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
