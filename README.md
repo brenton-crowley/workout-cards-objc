@@ -22,6 +22,7 @@ I also referenced the 2013 Fall Standford resources. If I am to be a successful 
 -- Getting views positioned correctly.
 -- Loading a custom view in a ViewController (took a while to find this solution.)
 -- At this stage, I would struggle to create a view programmatically in Objective-C.
+- Hilariously, I was trying to add workoutCards as subViews to a horizontal stack contained within a scrollView. Then I recalled CollectionViews.
 
 ## Known issues
 - Does not account for memory management (dealloc etc.).
