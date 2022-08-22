@@ -2,6 +2,7 @@
 Coding challenge that shows a horizontal collection of cards styles to guidelines.
 
 # Video Demo
+https://user-images.githubusercontent.com/1415689/185831964-806bac4a-19dc-47dd-a956-cc81806fa6f7.mov
 
 ## Disclaimer
 It has been around 8 years since I last programmed anything in Objective-C. I enjoyed the challenge of scrambling to refresh my archived knowledge over the weekend.
